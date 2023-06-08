@@ -1,0 +1,256 @@
+.App h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 50px 50px;
+  }
+  
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.25rem;
+    color: whitesmoke;
+    text-align: left;
+    margin: 5% 20%;
+  }
+  
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: left;
+    margin: 5% 20%;
+  }
+  
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    color: rgb(141, 141, 141);
+    text-align: justify;
+    margin: 5% 10%;
+  }
+  
+  body {
+    text-align: center;
+    padding-top: 56px; /* Adjust this value to match the height of your navbar */
+  }
+  
+  hr {
+    color: whitesmoke;
+    margin: 50px 50px;
+    border-width: 3px;
+  }
+  
+  #title {
+    font-size: 1.25rem;
+    opacity: 0.9;
+  }
+  
+  .home-section {
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("../public/images/kloseband.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: -206px;
+    padding-top: 56px;
+    z-index: -1;
+  }
+  
+  
+  @media (max-width: 1112px) {
+    .home-section {
+      width: 740px;  
+      height: 450px;
+      background-size: cover;
+    }
+  
+    .menubar {
+      position: absolute;
+      right: 0;
+      top: 6rem;
+      width: 25%;
+      border: white;
+      background-color: rgba(0, 0, 0, 0.756);
+      backdrop-filter: blur(10px);
+  }
+  
+      .navbar-nav a {
+        color: white;
+      }
+  }
+  
+  
+  @media (max-width: 740px) {
+    .home-section {
+      width: 740px;  
+      height: 450px;
+      background-size: cover;
+    }
+  
+    .menubar {
+      position: absolute;
+      right: 0;
+      top: 6rem;
+      width: 25%;
+      border: white;
+      background-color: rgba(0, 0, 0, 0.756);
+      backdrop-filter: blur(10px);
+  }
+  
+      .navbar-nav a {
+        color: white;
+      }
+  }
+  
+  @media (max-width: 576px) {
+    .home-section {
+      width: 576px;  
+      height: 250px;
+      background-size: cover;
+    }
+  
+    .menubar {
+      position: absolute;
+      right: 0;
+      top: 6rem;
+      width: 25%;
+      border: white;
+      background-color: rgba(0, 0, 0, 0.756);
+      backdrop-filter: blur(10px);
+    }
+  
+    .navbar-nav a {
+      color: white;
+    }
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  /* About */
+  
+  #about {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  .about-image {
+    width: 100%;
+  }
+  
+  .img-fluid {
+    width: 400px;
+  }
+  
+  .carousel-item {
+    padding: 10% 10%;
+  }
+  
+  .aboutus {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .newstable {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 0% 20%;
+  }
+  
+  #news {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .news {
+    text-align: center;
+  }
+  
+  .newstable {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .newsrow {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    color: rgb(51, 51, 51);
+  }
+  
+  .newscol {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .newscol:first-child {
+    border-left: none;
+  }
+  
+  .newscol:last-child {
+    border-right: none;
+  }
+  
+  #music {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  .music {
+    text-align: center;
+  }
+  
+  .eppolitics {
+    text-align: center;
+  }
+  
+  #contact {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  .contact {
+    color: black;
+  }
+  
+  .hrcontact {
+    color: black;
+  }
+  .social-icon {
+    color: black;
+  }
+  
+  .list {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 1.2rem;
+  }
+  .footer {
+    background-color: whitesmoke;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  
